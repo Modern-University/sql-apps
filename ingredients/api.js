@@ -12,15 +12,15 @@ router.get("/client.js", (_, res) =>
  * Student code starts here
  */
 
-// TODO: connect to postgres
+// TODO 1: connect to postgres
 
 router.get("/type", async (req, res) => {
   const { type } = req.query;
   console.log("get ingredients", type);
 
-  // TODO: return all ingredients of a type
+  // TODO 2: return all ingredients of a type
 
-  // TODO: edit the response since we should now have the data to return
+  // TODO 3: edit the response since we should now have the data to return
   res.status(501).json({ status: "not implemented", rows: [] });
 });
 
@@ -31,10 +31,10 @@ router.get("/search", async (req, res) => {
 
   // Spend 30 minutes trying to figure out what this answer is. It's hard.
   // Then just code along with the Brian.
-  // TODO: return all columns as well as the count of all rows as total_count
-  // TODO: make sure to account for pagination and only return 5 rows at a time
+  // TODO 4: return all columns as well as the count of all rows as total_count
+  // TODO 5: make sure to account for pagination and only return 5 rows at a time
   
-  // TODO: edit the response since we should now have the data to return
+  // TODO 6: edit the response since we should now have the data to return
   res.status(501).json({ status: "not implemented", rows: [] });
 });
 
