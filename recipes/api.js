@@ -55,6 +55,15 @@ router.get("/get", async (req, res) => {
   // if no row[0] has no photo, return it as default.jpg
 
   // TODO 7: edit the response since we should now have the data to return
+  /*
+    Response data structure
+    {
+      ingredients: [...],
+      photos: [...],
+      title: '...',
+      body: '...'
+    }
+  */
   res.status(501).json({ status: "not implemented" });
 });
 /**
